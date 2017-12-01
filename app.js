@@ -29,10 +29,10 @@ app.use(express.static('public'));
  *
  */
 const
-	APP_SECRET = process.env.APP_SECRET,
-	VERIFY_TOKEN = process.env.VERIFY_TOKEN,
-	ACCESS_TOKEN = process.env.ACCESS_TOKEN,
-	SERVER_URL = (process.env.SERVER_URL);
+	APP_SECRET = '40a9cbc84ffc2c377d4490e94f47d077',
+	VERIFY_TOKEN = 'officinadev',
+	ACCESS_TOKEN = 'DQVJ0d25Ram9jU0MzWmsxYXh5RlJSZAEEyREhZAUXM4WlVHWmdRd0FraHJkTUhGZATBWZAm15eUoxcmlubU5xaUo2dUEzMFllUXR4cDRBUkNrWVd6SFJKbWxiVC1YVHRRRmRROEtvZAHBidjIzYkZADRjdRVVgwQzZAraGdaX0FzQV9FcE1CaHdyUFhJcnljbmFibGZAnRXBnS2pZAUEY5T2o0UXR0RnY3UmkzZAWhzamJ0MlVmSGFlZATVwdDd0NFRFa3Jxa3JkcllHNWZAueUZACa3lacHNoRwZDZD',
+	SERVER_URL = 'https://employee-survey.herokuapp.com';
 
 if (!(APP_SECRET && VERIFY_TOKEN && ACCESS_TOKEN && SERVER_URL)) {
 	console.log('The app secret is:', process.env.APP_SECRET);
